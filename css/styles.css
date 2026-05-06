@@ -1,0 +1,154 @@
+/* General page styling */
+body {
+    background-color: #fff3e6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #5c2e1f;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: #ffd27f;
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #f7c59f;
+}
+
+h1 {
+    color: #5c2e1f;
+    font-size: 40px;
+}
+
+h2 {
+    color: #8b3a2b;
+    font-size: 28px;
+}
+
+h3 {
+    color: #5c2e1f;
+    font-size: 22px;
+}
+
+/* Main sections */
+section,
+footer {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    max-width: 900px;
+    border-radius: 12px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+/* Lists */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Links */
+a {
+    color: #8b3a2b;
+}
+
+a:hover {
+    color: #c75b39;
+}
+
+/* Form */
+form {
+    margin-top: 15px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #999999;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #8b3a2b;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c2e1f;
+}
+
+/* Dynamic message */
+#greetingMessage {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5c2e1f;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    section,
+    footer {
+        margin: 15px;
+        padding: 18px;
+    }
+
+    input,
+    button {
+        width: 100%;
+        margin: 8px 0;
+    }
+}
