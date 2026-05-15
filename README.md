@@ -11,7 +11,7 @@ The site was designed to provide a modern user experience with responsive layout
 ## Live Site Link
 GitHub Pages URL:
 
-https://tthompsonnmsu.github.io/TThompsonNMSU-web-project/project4/project4.html
+https://tthompsonnmsu.github.io/TThompsonNMSU-web-project/final/index.html
 
 ---
 
